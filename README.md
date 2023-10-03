@@ -6,7 +6,7 @@ An E-commerce admin api based on python framework FastApi
 pip3 install fastapi\
 pip3 isntall uvicorn\
 pip3 install sqlalchemy\
-pip3 install mysql-connector  
+pip3 install mysql-connector-python
 
 ## to run
 open command promt in e-commerce_admin_api\
