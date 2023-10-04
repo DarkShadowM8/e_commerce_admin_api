@@ -8,9 +8,11 @@ pip3 isntall uvicorn\
 pip3 install sqlalchemy\
 pip3 install mysql-connector-python
 
+## database Url
+make sure to change database url which is in: `config/contextmanagerservice.py` with your database link `databaseUrl = 'mysql+mysqlconnector://root:root@localhost:3306/case1'`
+
 ## to run
 open command promt in e-commerce_admin_api\
-make sure to change `databaseUrl = 'mysql+mysqlconnector://root:root@localhost:3306/case1'` link in `config/contextmanagerservice.py` with your database link\
 run command `uvicorn main:app --reload`
 
 # Note:
